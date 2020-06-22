@@ -1,14 +1,19 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
+    school: 'Carnegie Mellon University',
+    degree: 'M.S. Mechanical Engineering',
+    link: 'https://www.cmu.edu',
+    year: 2020,
+  }, {
+    school: 'Shanghai Jiao Tong University',
+    degree: 'B.S. Minor in Computer Technology',
+    link: 'https://www.sjtu.edu.cn',
     year: 2016,
   }, {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Shanghai Jiao Tong University',
+    degree: 'B.S. Naval Architecture and Ocean Engineering',
+    link: 'https://www.sjtu.edu.cn',
+    year: 2016,
   },
 ];
 
