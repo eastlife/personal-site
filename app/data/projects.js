@@ -1,15 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'GenBox2D',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'TrafficNet',
+    subtitle: 'A one-stop platform for scenario-based self-driving database',
+    link: 'http://traffic-net.org',
+    image: '/images/projects/trafficnet.jpg',
+    date: '2020-05',
+    desc: 'I designed and developed a website for scenario-based self-driving dataset ' 
+      + 'with Spring Boot and React to store and query '
+      + 'heterogeneous traffic data, e.g. LiDAR, GPS and images.',
   }
 ];
 

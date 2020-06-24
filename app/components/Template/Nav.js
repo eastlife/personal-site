@@ -10,7 +10,7 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" />
+        <img src={`${BASE_PATH}/images/me_icon_square.jpg`} alt="" />
       </Link>
       <header>
         <h2>Boxian Deng</h2>
@@ -21,8 +21,8 @@ const Nav = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Boxian.
-        I am a <a href="https://cmu.edu/">Carnegie Mellon</a> graduate. 
-        I am now working as a software engineer at <a href="https://facebook.com/">Facebook</a>.
+        I am a <a href="https://cmu.edu/" target="_blank">Carnegie Mellon</a> graduate. 
+        I am now working as a software engineer at <a href="https://facebook.com/" target="_blank">Facebook</a>.
       </p>
       <ul className="actions">
         <li>
@@ -35,7 +35,7 @@ const Nav = () => (
       <ul className="icons">
         {data.map((s) => (
           <li key={s.label}>
-            <a href={s.link}>
+            <a href={s.link} target="_blank">
               <FontAwesomeIcon icon={s.icon} />
             </a>
           </li>

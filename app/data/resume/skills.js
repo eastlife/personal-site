@@ -19,12 +19,12 @@ const skills = [{
 {
   title: 'Amazon Web Services',
   competency: 4,
-  category: ['Web Development', 'Tools'],
+  category: ['Web Development', 'Tools', 'Cloud Computing'],
 },
 {
   title: 'Heroku',
   competency: 2,
-  category: ['Web Development', 'Tools'],
+  category: ['Web Development', 'Tools', 'Cloud Computing'],
 },
 {
   title: 'MongoDB',
@@ -34,7 +34,12 @@ const skills = [{
 {
   title: 'MySQL/SQL',
   competency: 4,
-  category: ['Web Development', 'Databases', 'Languages'],
+  category: ['Web Development', 'Databases', 'Languages', 'Cloud Computing'],
+},
+{
+  title: 'HBase',
+  competency: 4,
+  category: ['Web Development', 'Databases', 'Cloud Computing'],
 },
 {
   title: 'Express.JS',
@@ -47,18 +52,28 @@ const skills = [{
   category: ['Tools'],
 },
 {
+  title: 'Docker',
+  competency: 3,
+  category: ['Tools', 'Cloud Computing'],
+},
+{
   title: 'Kubernetes',
   competency: 3,
-  category: ['Tools', 'Data Engineering'],
+  category: ['Tools', 'Cloud Computing'],
 },
 {
   title: 'Google Cloud Compute',
   competency: 4,
-  category: ['Tools', 'Web Development'],
+  category: ['Tools', 'Web Development', 'Cloud Computing'],
+},
+{
+  title: 'Microsoft Azure',
+  competency: 3,
+  category: ['Tools', 'Web Development', 'Cloud Computing'],
 },
 {
   title: 'Numpy',
-  competency: 3,
+  competency: 2,
   category: ['Data Science', 'Data Engineering', 'Python'],
 },
 {
@@ -82,7 +97,7 @@ const skills = [{
   category: ['Languages', 'Python'],
 },
 {
-  title: 'C++',
+  title: 'C/C++',
   competency: 3,
   category: ['Languages'],
 },
@@ -92,18 +107,23 @@ const skills = [{
   category: ['Languages', 'Game Development'],
 },
 {
+  title: 'Go',
+  competency: 3,
+  category: ['Languages'],
+},
+{
   title: 'Hadoop',
   competency: 3,
-  category: ['Data Engineering', 'Data Science'],
+  category: ['Data Engineering', 'Data Science', 'Cloud Computing'],
 },
 {
   title: 'Spark',
   competency: 2,
-  category: ['Data Engineering', 'Data Science'],
+  category: ['Data Engineering', 'Data Science', 'Cloud Computing'],
 },
 {
   title: 'Unity',
-  competency: 4,
+  competency: 3,
   category: ['Game Development'],
 },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));

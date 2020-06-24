@@ -103,7 +103,7 @@ const Contact = () => {
         <ul className="icons">
           {data.map((s) => (
             <li key={s.label}>
-              <a href={s.link}>
+              <a href={s.link} target="_blank">
                 <FontAwesomeIcon icon={s.icon} />
               </a>
             </li>
